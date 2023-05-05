@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".aboutsection">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -18,7 +19,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="20dp"
-            android:text="We will make about section for you just put your information below"
+            android:text="Your about secntion "
             android:textSize="20dp" />
 
 
@@ -39,53 +40,48 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/name"
+            <TextView
+                android:id="@+id/name1"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:hint="Name"
                 android:paddingStart="20dp"
                 android:textColor="@color/black" />
 
-            <EditText
-                android:id="@+id/mail"
+            <TextView
+                android:id="@+id/mail1"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:hint="E-mail"
                 android:paddingStart="20dp"
                 android:textColor="@color/black" />
 
-            <EditText
-                android:id="@+id/rollNumber"
+            <TextView
+                android:id="@+id/rollNumber1"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:hint="Roll Number"
                 android:paddingStart="20dp"
                 android:textColor="@color/black" />
 
-            <EditText
-                android:id="@+id/code"
+            <TextView
+                android:id="@+id/code1"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:hint="Referral Code (Optional)"
                 android:paddingStart="20dp"
                 android:textColor="@color/black" />
 
-            <EditText
-                android:id="@+id/password"
+            <TextView
+                android:id="@+id/password1"
                 android:layout_width="300dp"
                 android:layout_height="50dp"
-                android:hint="Password"
                 android:paddingStart="20dp"
                 android:textColor="@color/black" />
 
             <Button
-                android:id="@+id/submit"
+                android:id="@+id/change"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:layout_marginBottom="50dp"
-                android:text="submit" />
+                android:text="Change or Edit Here" />
 
 
         </LinearLayout>
